@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<style>
+  select option {
+      font-weight: bold;
+  }
+</style>
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" contents="width=device-width,initial-scale=1">
+     
+     <title>FORM</title>
+</head>
+<body>
+     <fieldset>
+          <legend>Enquiry Form</legend>
+
+        <form method="" action="">
+          
+          <label>Name<label/><br/>
+          <input type="text" pattern="[a-zA-Z ]{3,40}" placeholder="Enter The Name" name="uname" />
+          <br/>
+          <label>Gender</label><br/>
+          <input type="radio" value="male" name="gender" />Male
+          <input type="radio" value="female" name="gender" />Female
+          <br/>
+          <label>Email<label/><br/>
+          <input type="email" pattern="[a-z ]" placeholder="Enter The Email" name="uemail" />
+          <br/> 
+          <label>Password</label><br/>
+          <input type="Password" /><br/>
+          <label>Phone<label/><br/>
+          <input type="tel" pattern="[0-9]{10}" title="Enter The Valide Phone Number With 10 Digit" placeholder="Enter The Phoner" name="uphone" />
+          <br/>
+          <label>Course<label/><br/>
+          <input type="checkbox" value="python"> python <input type="checkbox" value="java"> java <input type="checkbox" value="c++"> c++ <input type="checkbox" value="c"> c
+          <br/> 
+          <label>Photo</label><br/>
+          <input type="file" accept=".pdf,.jpg" /><br/>
+          <label>Countery</label><br/>
+          <select>
+               <option>-------Select Countery-----</option>
+               <option>Afghanistan</option>
+               <option>Albania</option>
+               <option>Bahamas</option>
+               <option>Belarus</option>
+               <option>Cabo Verde</option>
+               <option>Côte d'Ivoire</option>
+               <option>Democratic Republic of the Congo</option>
+               <option>Dominican Republic</option>
+               <option>Ecuador</option>
+               <option>Egypt</option>
+               <option>Fiji</option>
+               <option>France</option>
+               <option>Gabon</option>
+               <option>Germany</option>
+               <option>Haiti</option>
+               <option>Honduras</option>
+               <option>Iceland</option>
+               <option>India</option>
+               <option>  Japan</option>
+          </select><br/>
+          <label>Course</label><br/>
+          <select>
+               <option label="Frountend">
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>JS</option>
+                    
+               </option>
+               <option label="Backend">
+                    <option>PHP</option>
+                    <option>NODE</option>
+                    <option>MYSQL</option>
+
+               </option>
+          </select><br/>
+
+
+
+
+
+
+
+
+
+
+
+          <label>Message</label><br/>
+          <textarea></textarea><br/> 
+
+
+          <button type="submit">save</button></button>
+          <input type="submit" value="Go" /> 
+        </form> 
+        </fieldset>
+</body>
+</html>

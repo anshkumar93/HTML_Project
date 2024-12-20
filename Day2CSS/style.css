@@ -1,0 +1,46 @@
+.main{
+	width: 1000px;
+    height: 540px;
+    font-family: sans-serif;
+    background: lightblue;  
+}
+
+.row1{
+	width: 1000px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: initial;
+    text-decoration: underline;
+    font-size: 30pz;
+    background: lightgreen;
+    text-transform: capitalize;
+    word-spacing: 1px; 
+}
+.row2{
+	width: 1000px;
+    height: 40px;
+    background: lightgrey;  
+}
+.row2c1{
+     width: 200px;
+     height: 40px;
+     float: left;
+     background-color: greenyellow;	
+}
+.row3{
+	width: 1000px;
+	height: 200px;
+	background-color: yellow;
+}
+.row3left{
+	width: 250;
+	height: 200px;
+	float: left;
+}
+.row3right{
+	width: 250;
+	height: 200px;
+	float: left;
+}
